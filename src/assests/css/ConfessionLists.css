@@ -1,0 +1,41 @@
+.confessionLists{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    grid-row-gap: 40px;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+
+.confession-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px #ccc;
+    position: relative;
+}
+
+.time{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.date{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width:980px){
+    .confessionLists{
+    grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media (max-width:600px) {
+    .confessionLists{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

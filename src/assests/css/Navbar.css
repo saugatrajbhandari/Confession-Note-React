@@ -1,0 +1,28 @@
+.navbar{
+    background: #2c2c58;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: contrast(64%);
+}
+
+.navbar div a{
+    text-decoration: none;
+}
+
+.navbar .navbar-about a{
+    color: #ccc;
+}
+
+.navbar-logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+
+}
+
+.navbar div{
+    padding: 20px;
+}
